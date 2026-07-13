@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "wine-quality-project.backend.main:app"
