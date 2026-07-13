@@ -13,6 +13,11 @@ A premium wine quality prediction dashboard built with React and FastAPI. Uses a
 - **Predict** — 11 range sliders for wine features, real-time quality prediction with animated wine glass gauge
 
 <img width="1366" height="645" alt="Predict" src="https://github.com/user-attachments/assets/6aeecae9-c359-4834-bd57-2e9f9d9531c2" />
+<img width="1366" height="918" alt="overview" src="https://github.com/user-attachments/assets/1a132f11-ed3d-45b4-b999-159ca657a08e" />
+<img width="1366" height="754" alt="reserve list" src="https://github.com/user-attachments/assets/28892631-44a0-488c-a664-d5780415e54b" />
+<img width="1366" height="645" alt="screencapture-localhost-5173-2026-07-14-00_23_31" src="https://github.com/user-attachments/assets/bbf6eea2-3482-4654-9ddf-b07efe85f0f3" />
+<img width="1366" height="921" alt="screencapture-localhost-5173-2026-07-14-00_24_00" src="https://github.com/user-attachments/assets/11fb626b-695b-46b3-8772-ac6fa3a92603" />
+
 
 ## Tech Stack
 
