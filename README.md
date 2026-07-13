@@ -2,9 +2,7 @@
 
 A premium wine quality prediction dashboard built with React and FastAPI. Uses a Random Forest Regressor trained on 1,143 red wine samples from the UCI Wine Quality dataset to predict quality scores based on 11 physicochemical features.
 
-## Live Demo
 
-[View Live Demo](https://your-app.vercel.app) *(replace with your Vercel URL after deployment)*
 
 ## Preview
 
