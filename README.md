@@ -26,7 +26,6 @@ A premium wine quality prediction dashboard built with React and FastAPI. Uses a
 | Frontend | React 19, Vite 8, Recharts |
 | Backend | FastAPI, Uvicorn |
 | ML Model | Scikit-learn (RandomForestRegressor) |
-| Deployment | Vercel (serverless functions + static frontend) |
 
 ## Project Structure
 
