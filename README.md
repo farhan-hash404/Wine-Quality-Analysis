@@ -237,8 +237,5 @@ In production, the frontend automatically uses relative `/api/` paths (same doma
 | alcohol | Alcohol content | % vol |
 
 ## Dataset
-
-**UCI Wine Quality Dataset** — 1,143 red wine samples with 11 input features and 1 quality score (3–8).
-
-Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality)
+Source: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset
 
