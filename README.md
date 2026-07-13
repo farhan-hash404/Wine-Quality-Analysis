@@ -12,6 +12,8 @@ A premium wine quality prediction dashboard built with React and FastAPI. Uses a
 - **Reserve List** — Filterable table of high-quality wines with adjustable threshold
 - **Predict** — 11 range sliders for wine features, real-time quality prediction with animated wine glass gauge
 
+<img width="1366" height="645" alt="Predict" src="https://github.com/user-attachments/assets/6aeecae9-c359-4834-bd57-2e9f9d9531c2" />
+
 ## Tech Stack
 
 | Layer | Technology |
