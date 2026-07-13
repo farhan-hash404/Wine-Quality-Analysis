@@ -31,7 +31,7 @@ A premium wine quality prediction dashboard built with React and FastAPI. Uses a
 
 ```
 wine-quality-project/
-├── api/                          # Vercel serverless function (FastAPI)
+├── api/                          # FastAPI
 │   ├── index.py                  # All API routes
 │   ├── wine_quality_model.pkl    # Trained model
 │   ├── scaler.pkl                # StandardScaler
@@ -55,7 +55,6 @@ wine-quality-project/
 │   ├── package.json
 │   └── vite.config.js
 ├── backend/                      # Local dev backend (same as api/)
-├── vercel.json                   # Vercel config
 ├── requirements.txt              # Python dependencies
 └── README.md
 ```
@@ -173,42 +172,12 @@ This regenerates `wine_quality_model.pkl` and `scaler.pkl`.
 - Score >= 5 → `"Average Quality"`
 - Score < 5 → `"Low Quality"`
 
-## Deploy to Vercel
 
-### Option 1: Vercel CLI
 
-```bash
-# Install Vercel CLI
-npm install -g vercel
 
-# Deploy
-cd wine-quality-project
-vercel
 
-# Follow the prompts, then deploy to production
-vercel --prod
-```
 
-### Option 2: GitHub Integration
 
-1. Push your code to GitHub
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import your GitHub repository
-4. Vercel auto-detects the config from `vercel.json`
-5. Click **Deploy**
-
-The `vercel.json` handles:
-- Building the React frontend from `frontend/`
-- Deploying the FastAPI backend as a Python serverless function
-- Routing `/api/*` to the backend
-
-### Environment Variables (Optional)
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `VITE_API_URL` | Backend URL for local dev | `http://127.0.0.1:8000` |
-
-In production, the frontend automatically uses relative `/api/` paths (same domain).
 
 ## ML Model Details
 
